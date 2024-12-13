@@ -1,0 +1,26 @@
+.product-list-item {
+    width: 310px;
+    height: 462px;
+    padding: 5px;
+    margin: 5px;
+    opacity: 0px;
+}
+
+.product-image {
+    width: 300x;
+    height: 350px;
+    background-image: linear-gradient(to right, rgb(227, 246, 249), rgb(144, 255, 251));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-text{
+    text-decoration: underline;
+    color: #888792;
+}
+.heart-png-text{
+    color: #888792;
+    font-size: 14px;
+}
+.heart-and-text-container{
+    display: flex;
+}
