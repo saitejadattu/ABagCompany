@@ -281,7 +281,7 @@ const Home = () => {
         <div className='customizble-container'>
           {isFilter && <FilterList />}
           <ul className='product-unordered-container'>
-            {productList && productList.map((eachProduct) => <Product key={eachProduct.id} product={eachProduct} />)}
+            {productList.map((eachProduct) => <Product key={eachProduct.id} product={eachProduct} />)}
           </ul>
         </div>
 
