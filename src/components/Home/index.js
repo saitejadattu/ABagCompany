@@ -4,7 +4,7 @@ import "./index.css"
 import FilterList from '../FilterList';
 import { PiGreaterThan, PiLessThanThin } from "react-icons/pi";
 import Product from '../Product';
-import Footer from '../../Footer';
+import Footer from '../Footer';
 
 const productList = [
   {
